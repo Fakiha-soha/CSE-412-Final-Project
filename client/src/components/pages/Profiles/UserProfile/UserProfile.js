@@ -217,7 +217,7 @@ class UserProfile extends Component {
           </section>
 
           {/* Your activity*/}
-          <h2 className="mt-5 mb-3">Your activity</h2>
+          {/* <h2 className="mt-5 mb-3">Your activity</h2>
           <Row className="mt-5">
             <Col>
               <TabNav
@@ -278,7 +278,7 @@ class UserProfile extends Component {
                 )}
               </TabNav>
             </Col>
-          </Row>
+          </Row> */}
 
           <Link to="/courses" className="btn btn-outline-dark mt-5">
             Go back

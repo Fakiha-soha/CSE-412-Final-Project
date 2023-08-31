@@ -97,7 +97,7 @@ class NewTeacherForm extends Component {
                                     <Form.Control as="textarea" name="description" value={this.state.description} onChange={this.handleInputChange} placeholder='Tell us something about you' />
                                 </Form.Group>
 
-                                <Tabs className="mt-4" defaultActiveKey="linkedin" id="Personal Links">
+                                {/* <Tabs className="mt-4" defaultActiveKey="linkedin" id="Personal Links">
                                     <Tab eventKey="linkedin" title="Linkedin">
                                         <Form.Group controlId="linkedin">
                                             <Form.Label>Linkedin URL</Form.Label>
@@ -116,7 +116,7 @@ class NewTeacherForm extends Component {
                                             <Form.Control type="text" name="youtube" value={this.state.youtube} onChange={this.handleInputChange} placeholder='Do you have a Youtube channel?' />
                                         </Form.Group>
                                     </Tab>
-                                </Tabs>
+                                </Tabs> */}
 
                                 <Form.Group className="mt-3">
                                     <Form.Label>Imagen (file: jpg or png) {this.state.uploadingActive && <Loader />}</Form.Label>

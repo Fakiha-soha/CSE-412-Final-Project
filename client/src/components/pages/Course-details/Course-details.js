@@ -286,9 +286,9 @@ class CourseDetails extends Component {
 
               {/* Comments */}
 
-              <h3 className="mt-5 mb-3">Comments</h3>
+              {/* <h3 className="mt-5 mb-3">Comments</h3> */}
 
-              {this.state.comments.length ? (
+              {/* {this.state.comments.length ? (
                 this.state.comments?.map((elm) => (
                   <div className="mb-2" key={elm._id} {...elm}>
                     {elm.user && (
@@ -331,7 +331,7 @@ class CourseDetails extends Component {
                 ))
               ) : (
                 <p className="mb-3 ml-3">No comments yet</p>
-              )}
+              )} */}
 
               {this.props.loggedUser && (
                 <section>

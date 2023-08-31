@@ -39,7 +39,7 @@ class AddComments extends Component {
     render() {
         return (
             <Row>
-                <Col>
+                {/* <Col>
                     <h2 className="mt-4 mb-3">Add a Comment</h2>
                     <Form className="comment-form" onSubmit={this.handleSubmit}>
                         <Form.Group controlId="content">
@@ -47,7 +47,7 @@ class AddComments extends Component {
                         </Form.Group>
                         <Button className="btn start-course" type="submit"> Submit</Button>
                     </Form>
-                </Col>
+                </Col> */}
             </Row>
         )
     }
